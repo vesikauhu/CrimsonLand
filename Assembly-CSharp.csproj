@@ -51,8 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AK47.cs" />
+     <Compile Include="Assets\AudioManager.cs" />
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\MouseTurn.cs" />
      <Compile Include="Assets\Movement.cs" />
+     <Compile Include="Assets\Pistol.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Spas.cs" />
+     <Compile Include="Assets\SpawnSystem.cs" />
+     <Compile Include="Assets\Weapon.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
