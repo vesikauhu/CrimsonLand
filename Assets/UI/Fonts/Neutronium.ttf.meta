@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 603fe7e1c6248a3498dc259f19f4fc64
+timeCreated: 1511718841
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 300
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Neutronium
+  fontNames:
+  - Neutronium
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

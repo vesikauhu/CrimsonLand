@@ -83,12 +83,17 @@ public class Movement : MonoBehaviour {
 
     void SprintInput()
     {
+        if (Input.GetKey(KeyCode.LeftShift) && stamina <= 0)
+        {
+            staminaRecovery = false;
+        }
         if (Input.GetKey(KeyCode.LeftShift) && stamina > 0)
         {
+            StopAllCoroutines();
+            staminaRecovery = false;
+            sprint = true;
             currentSpeed *= 3;
             stamina -= Time.deltaTime * 50;
-            sprint = true;
-            staminaRecovery = false;
         }
         else
         {

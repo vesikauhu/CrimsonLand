@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 82ea835d0df1b9544a6f6ed8a5be2c63
-timeCreated: 1511139961
+timeCreated: 1511346773
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -8,7 +8,7 @@ TextureImporter:
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,8 +34,8 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapU: 1
-    wrapV: 1
+    wrapU: -1
+    wrapV: -1
     wrapW: -1
   nPOTScale: 0
   lightmap: 0
@@ -45,12 +45,12 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 93, y: 478, z: 413, w: 29}
+  spriteBorder: {x: 269, y: 461, z: 206, w: 14}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -58,7 +58,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -67,7 +67,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -78,11 +78,15 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline:
-    - - {x: -256, y: 256}
-      - {x: -256, y: -256}
-      - {x: 256, y: -256}
-      - {x: 256, y: 256}
-    physicsShape: []
+    - - {x: 7.645752, y: 243.6965}
+      - {x: 9.403412, y: 202.15771}
+      - {x: 56.800964, y: 201.57184}
+      - {x: 55.629272, y: 245.4542}
+    physicsShape:
+    - - {x: 4.716339, y: 244.28241}
+      - {x: 7.645752, y: 201.57187}
+      - {x: 55.629242, y: 200.40009}
+      - {x: 56.215088, y: 244.86829}
   spritePackingTag: 
   userData: 
   assetBundleName: 

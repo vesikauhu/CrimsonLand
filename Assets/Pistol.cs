@@ -21,7 +21,7 @@ public class Pistol : Weapon {
         {
             AudioSource a = audioManager.AddComponent<AudioSource>();
             a.PlayOneShot(shotSound);
-            GameObject flash = Instantiate(muzzlePrefab, transform.parent.transform, false);
+            GameObject flash = Instantiate(muzzlePrefab, transform, false);
             Destroy(flash, 0.05f);
             GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
             bullet.transform.SetParent(gameObject.transform);

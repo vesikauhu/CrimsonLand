@@ -69,8 +69,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1093858404281400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.52, z: 0}
-  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4941352160105810}
   - {fileID: 4555803554676184}
@@ -209,21 +209,21 @@ TrailRenderer:
   m_Time: 0.25
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.2
+    widthMultiplier: 0.5
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0.18214226
+        time: 0.18582153
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.18517703
-        value: 0.46063745
-        inSlope: 0.26402494
-        outSlope: 0.26402494
+        time: 0.18762988
+        value: 0.22150171
+        inSlope: 0.35046825
+        outSlope: 0.35046825
         tangentMode: 0
       - serializedVersion: 2
         time: 1
@@ -282,5 +282,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileType: 0
-  bulletSpeed: 75
-  bulletForce: 0
+  damage: 0

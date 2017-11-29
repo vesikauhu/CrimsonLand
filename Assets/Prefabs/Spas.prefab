@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1670196387232764}
+  m_RootGameObject: {fileID: 1644741983892222}
   m_IsPrefabParent: 1
---- !u!1 &1670196387232764
+--- !u!1 &1644741983892222
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4806558705305830}
-  - component: {fileID: 114398715861639834}
+  - component: {fileID: 4586149552434306}
+  - component: {fileID: 114011409801716152}
   m_Layer: 0
   m_Name: Spas
   m_TagString: Untagged
@@ -27,42 +27,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4806558705305830
+--- !u!4 &4586149552434306
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1670196387232764}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.95}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 1644741983892222}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114398715861639834
+--- !u!114 &114011409801716152
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1670196387232764}
+  m_GameObject: {fileID: 1644741983892222}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e90df1f5418198a4e8f5e5255aa93f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Spas
-  weaponType: 0
-  crosshair: {fileID: 2800000, guid: 511bee6d05a0c1649bc8adbae7788c61, type: 3}
-  shotSound: {fileID: 0}
-  damage: 30
+  weaponType: 1
+  shotSound: {fileID: 8300000, guid: 7a8c64d9069725a428be7410392711dc, type: 3}
+  reloadSound: {fileID: 8300000, guid: cd42618fa88e5634a98767705675967d, type: 3}
+  damage: 70
   clipSize: 10
   ammoInClip: 10
-  reloadTime: 3
-  firerate: 3
-  recoilForce: 10
+  reloadTime: 3.5
+  firerate: 1
+  recoilForce: 300
   reloading: 0
   bulletPrefab: {fileID: 1590469169606372, guid: 1c31fe0772bb49f489b41de378202cad,
     type: 2}
   muzzlePrefab: {fileID: 1672236626179594, guid: f2c2c55ffc299bb42af96d1f9db711fa,
     type: 2}
+  i: 0

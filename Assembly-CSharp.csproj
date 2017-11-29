@@ -56,6 +56,11 @@
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\Grenade.cs" />
+     <Compile Include="Assets\HUDManager.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\Mod.cs" />
      <Compile Include="Assets\MouseTurn.cs" />
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\Pistol.cs" />
@@ -63,8 +68,13 @@
      <Compile Include="Assets\Spas.cs" />
      <Compile Include="Assets\SpawnSystem.cs" />
      <Compile Include="Assets\Weapon.cs" />
+     <Compile Include="Assets\Zombie_0_4\Script\PlayGUI.cs" />
+     <None Include="Assets\UI\Fonts\Read me.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Blood decal pack\readme.txt" />
+     <None Include="Assets\Zombie_0_4\AnimationFrameTable\Zombie_0_4.txt" />
+     <None Include="Assets\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
