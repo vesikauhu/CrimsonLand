@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        playerPosition = GameManager.player.transform.position;
+        playerPosition = GameManager.Instance.Player.transform.position;
         Vector3 point = c.WorldToViewportPoint(playerPosition);
         Vector3 delta = playerPosition - c.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z));
         Vector3 destination = transform.position + delta;

@@ -71,6 +71,7 @@ public class Enemy : MonoBehaviour {
         rnd = Random.Range(1, 360);
         bt.transform.Rotate(0, rnd, 0);
         Destroy(gameObject, 5f);
+        GameManager.Instance.Player.cash += 10;
     }
 
     void OnCollisionEnter(Collision collision)

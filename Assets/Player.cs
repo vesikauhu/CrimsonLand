@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
     Animator animator;
     public float health;
-    public float cash;
+    public int cash;
 
     public Transform gunPosition;
     public Weapon[] weapons;

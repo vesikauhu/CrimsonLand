@@ -18,9 +18,9 @@ public class HUDManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         string ammoAmount = "";
-        ammoAmount = GameManager.player.currentWeapon.ammoInClip.ToString();
+        ammoAmount = GameManager.Instance.Player.currentWeapon.ammoInClip.ToString();
         ammoText.text = ammoAmount;
-        healthBar.fillAmount = GameManager.player.health / 100;
-        staminaBar.fillAmount = GameManager.player.gameObject.GetComponent<Movement>().stamina / 100;
+        healthBar.fillAmount = GameManager.Instance.Player.health / 100;
+        staminaBar.fillAmount = GameManager.Instance.Player.gameObject.GetComponent<Movement>().stamina / 100;
 	}
 }

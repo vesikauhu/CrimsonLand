@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-    public static GameManager instance;
-    public static Player player;
+    public static GameManager Instance;
+    public Player Player;
 
     void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {
             Destroy(gameObject);
         }
-        player = GameObject.Find("Player").GetComponent<Player>();
+        Player = GameObject.Find("Player").GetComponent<Player>();
     }
 	
 	// Update is called once per frame
